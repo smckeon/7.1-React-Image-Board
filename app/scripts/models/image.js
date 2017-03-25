@@ -1,11 +1,9 @@
 var Backbone = require('backbone');
 
 
-
 var Image = Backbone.Model.extend({
   idAttribute: '_id'
 });
-
 
 var ImageCollection = Backbone.Collection.extend({
   model: Image,
@@ -14,6 +12,6 @@ var ImageCollection = Backbone.Collection.extend({
 
 
 module.exports = {
-  Image
-  , ImageCollection
+  Image,
+  ImageCollection
 };
